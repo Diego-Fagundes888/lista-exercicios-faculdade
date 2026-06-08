@@ -5,21 +5,19 @@ int main()
 {
     printf("\n************************************************************");
     printf("\n* Aluno: DIEGO FAGUNDES - RA 0027084                       *");
-    printf("\n* Programa DAF- 35 ...     Numeros de Fibonacci (n termos).*");
+    printf("\n* Programa DAF- 40 ...   Tabuada com while.                *");
     printf("\n************************************************************\n\n");
 
-    int n, i;
-    int a = 0, b = 1, proximo;
+    int number;
+    int i = 0;
 
-    printf("Digite a quantidade de termos: ");
-    scanf("%d", &n);
+    printf("Escolha o numero da tabuada: ");
+    scanf("%d", &number);
 
-    for (i = 0; i < n; i++)
+    while (i <= 10)
     {
-        printf("%d ", a);
-        proximo = a + b;
-        a = b;
-        b = proximo;
+        printf("%d x %d = %d\n", i, number, number * i);
+        i++;
     }
     
 }
