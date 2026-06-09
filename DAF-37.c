@@ -1,3 +1,10 @@
+/*
+JPA-37: Soma de números até digitar zero
+
+Um caixa simples de mercado precisa somar valores digitados pelo operador.
+O programa deve continuar recebendo números até que o usuário digite 0 e, ao final, mostrar a soma total.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -5,7 +12,7 @@ int main()
 {
     printf("\n************************************************************");
     printf("\n* Aluno: DIEGO FAGUNDES - RA 0027084                       *");
-    printf("\n* Programa DAF- 37 ...  Soma de números até digitar zero.  *");
+    printf("\n* JPA-37: Soma de numeros ate digitar zero");
     printf("\n************************************************************\n\n");
 
     int number, soma = 0;

@@ -1,3 +1,12 @@
+/*
+JPA-18: Login simples
+
+Uma escola criou um sistema simples para acesso à biblioteca digital.
+O aluno deve informar usuário e senha corretos para entrar no sistema.
+O programa deve verificar se os dados digitados estão corretos e mostrar uma mensagem de acesso
+permitido ou negado.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -6,7 +15,7 @@ int main()
 {
     printf("\n************************************************************");
     printf("\n* Aluno: DIEGO FAGUNDES - RA 0027084                       *");
-    printf("\n* Programa DAF-18 ... Identificacao.                       *");
+    printf("\n* JPA-18: Login simples");
     printf("\n************************************************************\n\n");
 
     char login[10] = "admin";

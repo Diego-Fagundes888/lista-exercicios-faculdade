@@ -1,3 +1,11 @@
+/*
+JPA-23: Maior de dois números
+
+Dois atletas registraram suas pontuações em uma prova.
+O sistema precisa identificar qual foi a maior pontuação.
+O programa deve receber dois números e mostrar qual deles é o maior.
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -5,7 +13,7 @@ int main()
 {
     printf("\n************************************************************");
     printf("\n* Aluno: DIEGO FAGUNDES - RA 0027084                       *");
-    printf("\n* Programa DAF-23 ...   Maior de dois números.             *");
+    printf("\n* JPA-23: Maior de dois numeros");
     printf("\n************************************************************\n\n");
 
     int jogador1, jogador2;

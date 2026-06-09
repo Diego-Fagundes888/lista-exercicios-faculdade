@@ -1,3 +1,11 @@
+/*
+JPA-19: Ordem crescente (três números)
+
+Durante uma competição escolar, três alunos obtiveram pontuações diferentes.
+O sistema precisa organizar os valores do menor para o maior para facilitar a classificação.
+O programa deve receber três números e exibi-los em ordem crescente.
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -5,7 +13,7 @@ int main()
 {
     printf("\n************************************************************");
     printf("\n* Aluno: DIEGO FAGUNDES - RA 0027084                       *");
-    printf("\n* Programa DAF-19 ...  Ordem crescente (tres numeros).     *");
+    printf("\n* JPA-19: Ordem crescente (tres numeros)");
     printf("\n************************************************************\n\n");
 
     float nota1, nota2, nota3;

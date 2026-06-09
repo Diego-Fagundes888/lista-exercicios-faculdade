@@ -1,13 +1,26 @@
+/*
+JPA-14: Tipo de Triângulo
+
+Uma fábrica de estruturas metálicas produz suportes em formato de triângulo
+para eventos e construções. Antes da fabricação, o sistema precisa verificar
+o tipo do triângulo com base nas medidas informadas pelo operador.
+
+O programa deve receber os três lados do triângulo e informar se ele é:
+- Equilátero: todos os lados iguais;
+- Isósceles: dois lados iguais;
+- Escaleno: todos os lados diferentes.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 
 int main ()
 {
-     setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "Portuguese");
     printf("\n************************************************************");
     printf("\n* Aluno: DIEGO FAGUNDES - RA 0027084                       *");
-    printf("\n* Programa DAF-14 ... Tipo de Triangulo.                   *");
+    printf("\n* JPA-14: Tipo de Triangulo                                *");
     printf("\n************************************************************\n\n");
 
     float lado1, lado2, lado3;

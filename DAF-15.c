@@ -1,3 +1,14 @@
+/*
+JPA-15: Quantas caixas cabem dentro do caminhão
+
+Uma empresa de logística precisa calcular quantas caixas podem ser transportadas em um caminhão sem
+ultrapassar o espaço disponível.
+O sistema deve receber as dimensões do caminhão e das caixas (altura, largura e comprimento) e calcular
+quantas caixas cabem no interior do veículo.
+O programa deverá utilizar variáveis para armazenar os valores e, como teste, o aluno deve digitar os valores
+fornecidos pelo professor para verificar o resultado do cálculo.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -7,7 +18,7 @@ int main()
     setlocale(LC_ALL, "Portuguese");
     printf("\n************************************************************");
     printf("\n* Aluno: DIEGO FAGUNDES - RA 0027084                       *");
-    printf("\n* Programa DAF-15 ... Caixas no Caminhao.                  *");
+    printf("\n* JPA-15: Quantas caixas cabem dentro do caminhao");
     printf("\n************************************************************\n\n");
 
      float alturaCaminhao, larguraCaminhao, comprimentoCaminhao;

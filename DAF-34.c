@@ -1,3 +1,10 @@
+/*
+JPA-34: Verificar se um número é primo
+
+Um estudante está aprendendo sobre números primos e quer automatizar a verificação.
+O programa deve receber um número e informar se ele é primo utilizando for.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -5,7 +12,7 @@ int main()
 {
     printf("\n************************************************************");
     printf("\n* Aluno: DIEGO FAGUNDES - RA 0027084                       *");
-    printf("\n* Programa DAF- 34 ...     Verificar se um numero e primo. *");
+    printf("\n* JPA-34: Verificar se um numero e primo");
     printf("\n************************************************************\n\n");
 
        int number, Primo = 1;
